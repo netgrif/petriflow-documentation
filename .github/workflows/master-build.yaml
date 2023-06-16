@@ -1,0 +1,28 @@
+name: Master Build
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
+      - run: npm run pdf
+      - name: Update docs
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: docs
+          pathspec_error_handling: exitImmediately
+          default_author: github_actions
+          committer_name: Netgrif DevOps
+          committer_email: devops@netgrif.com
+          message: 'CI - Update documentation'

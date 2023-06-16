@@ -1,0 +1,36 @@
+{
+  "name": "@netgrif/petriflow-docs",
+  "version": "1.0.0",
+  "description": "Petriflow documentation consolidation repository",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netgrif/petriflow-documentation.git"
+  },
+  "keywords": [
+    "petriflow",
+    "pf",
+    "petri-nets",
+    "workflow",
+    "documentation",
+    "netgrif"
+  ],
+  "author": "Netgrif",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/netgrif/petriflow-documentation/issues"
+  },
+  "homepage": "https://netgrif.github.io/petriflow-documentation",
+  "scripts": {
+    "init": "docsify init ./docs",
+    "start": "docsify serve ./docs",
+    "build": "node copyAndFormat.js",
+    "pdf": "node convertToPdf.js"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.4"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^5.2.4"
+  }
+}

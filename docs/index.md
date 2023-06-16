@@ -23,27 +23,27 @@ In this guide we will use https://builder.netgrif.com to build examples of Petri
 
 If you want to try yourself just sign up using your preffered email at https://etask.netgrif.cloud/registration. 
 
-![Image of Sing Up page](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/signup.jpg)
+![Image of Sing Up page](_media\signup.jpg 'Image of Sing Up page')
 
 
 
 You will receive an email 
 
-![Email with link to finish your Sing Up](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/email.jpg)
+![Email with link to finish your Sing Up](_media\email.jpg 'Email with link to finish your Sing Up')
 
 If you click on SING UP button, you will be redirected to the web page, where zou can finish your registration.
 
-![Email with link to finish your Sing Up](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/finishsignup.jpg)
+![Email with link to finish your Sing Up](_media\finishsignup.jpg 'Email with link to finish your Sing Up')
 
 As https://etask.netgrif.cloud/ is a multi-tenant service, here you can choose a unique Wokspace name for your account. We have chosen Petriflow Guide as a name for the account. The Workspace ID will automatically be generated from your Workspace name, in our case the generated Workspace ID is petriflow-guide. 
 
 After you fill your name, surname, create your password, agree with the Terms and Conditiions and press Register button, you will be redirected to the login page.
 
-![Login page](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/login.jpg)
+![Login page](_media\login.jpg 'Login page')
 
 Here you enter your email and password to Log In your account of Netgrif Etask, which enables you to upload Petriflow classes. Further, users registered to your group (to your workspace) van create Petriflow objects and perform tasks according to their workflow processes, fill the form associated to tasks etc.
 
-![Etask](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/etask.jpg)
+![Etask](_media\etask.jpg 'Etask')
 
 In following paragraphs, we will illustrate how to crate, deploy and use Petriflow applications starting with the most simple case.
 
