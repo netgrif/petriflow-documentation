@@ -71,6 +71,21 @@ First we will create a workflow process for the Petriflow class.
 
 ![Create form](_media/createform.jpg 'Create form')
 
+![Form builder](_media/t1form.jpg 'Form builder')
+
+![Form builder](_media/addingdatereftoform.jpg 'Form builder')
+
+![Form builder](_media/addingemaildatatoform.jpg 'Form builder')
+
+
+
+
+
+
+
+
+
+
 
 
 
