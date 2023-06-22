@@ -31,17 +31,17 @@ You will receive an email
 
 ![Email with link to finish your Sing Up](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/email.jpg)
 
-If you click on SING UP button, you will be redirected to the web page, where zou can finish your registration.
+If you click on SING UP button, you will be redirected to the web page, where you can finish your registration.
 
 ![Email with link to finish your Sing Up](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/finishsignup.jpg)
 
-As https://etask.netgrif.cloud/ is a multi-tenant service, here you can choose a unique Wokspace name for your account. We have chosen Petriflow Guide as a name for the account. The Workspace ID will automatically be generated from your Workspace name, in our case the generated Workspace ID is petriflow-guide. 
+As https://etask.netgrif.cloud/ is a multi-tenant service, here you can choose a unique Wokspace name for your account. We have chosen Guide Petriflow as a name for the account. The Workspace ID will automatically be generated from your Workspace name, in our case the generated Workspace ID is guide-petriwlod. 
 
 After you fill your name, surname, create your password, agree with the Terms and Conditiions and press Register button, you will be redirected to the login page.
 
 ![Login page](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/login.jpg)
 
-Here you enter your email and password to Log In your account of Netgrif Etask, which enables you to upload Petriflow classes. Further, users registered to your group (to your workspace) van create Petriflow objects and perform tasks according to their workflow processes, fill the form associated to tasks etc.
+Here you enter your email and password to Log In your account of Netgrif Etask, which enables you to upload Petriflow classes. Further, users registered to your group (to your workspace) can create Petriflow objects and perform tasks according to their workflow processes, fill the form associated to tasks etc.
 
 ![Etask](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/etask.jpg)
 
@@ -51,9 +51,44 @@ In following paragraphs, we will illustrate how to crate, deploy and use Petrifl
 
 Let us start with a web application in Petriflow language that consist of just one Petriflow class.
 
-Consider 
+Imagine, that we want to create an application with the following functionality:
+* whenever a user goes to a specific URL in a web browser, new instance of a web form will be desplayed in the web browser
+* the form will contain text input fields for entering user name, surname, email as required input fields, a text input field for entering phone number and finally a multiline text input field for entering request of the user 
+* the form should also contain a button for finishing/submitting the form
+* a registered user that is deploying the web application at https://etask.netgrif.cloud/ should see all submitted forms
 
-Wokflowe process -connected by directed arcs  with explicit place holders that can be marked by tokens to determine whether tha  
+To create the application, we will use Netgrif application builder accesible at https://builder.netgrif.com and describe the generated output in low-code language Petriflow.
+
+As we already said, a Petriflow class consists of data attributes, a workflow process that consists of tasks, which can have associated a form with a subset of data attributes.
+
+First we will create a workflow process for the Petriflow class. 
+
+![Adding a task](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/addingtask.jpg)
+
+![Change label](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/changelabel.jpg)
+
+![Changed label](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/changedlabel.jpg)
+
+![Create form](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/createform.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
@@ -65,9 +100,7 @@ Wokflowe process -connected by directed arcs  with explicit place holders that c
 
 
 
-## bla
 
-### bla
 
 ```xml
 <data type="number">
