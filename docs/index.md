@@ -75,4 +75,3 @@ Wokflowe process -connected by directed arcs  with explicit place holders that c
 		<title>Vrátiť</title>
 		<init>0</init>
 	</data>
-```
