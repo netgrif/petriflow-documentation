@@ -71,6 +71,21 @@ First we will create a workflow process for the Petriflow class.
 
 ![Create form](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/createform.jpg)
 
+![Form builder](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/t1form.jpg)
+
+![Form builder](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/addingdatereftoform.jpg)
+
+![Form builder](https://raw.githubusercontent.com/netgrif/petriflow-documentation/main/guide/images/addingemaildatatoform.jpg)
+
+
+
+
+
+
+
+
+
+
 
 
 
